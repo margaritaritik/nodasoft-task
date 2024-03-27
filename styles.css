@@ -9,16 +9,28 @@ body{
 }
 
 .wrapper{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     min-height: 100vh;
     max-width: 1200px;
     background-color: #C0DBD9;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 
-.container__block{
-    padding: 0px 15px;
+.content{
+
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100px;
+    background-color: #7FAFF6;
+    margin-top: 100px;
 }
 
 .block__head{
@@ -102,3 +114,4 @@ body{
     margin-right: 30px;
 
 }
+
